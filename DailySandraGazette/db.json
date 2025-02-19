@@ -1,0 +1,164 @@
+{
+  "sections": [
+    {
+        "id": 1,
+        "name": "Spain"
+    },
+    {
+        "id": 2,
+        "name": "World"
+    },
+    {
+        "id": 3,
+        "name": "Economy"
+    },
+    {
+        "id": 4,
+        "name": "Sports"
+    },
+    {
+        "id": 5,
+        "name": "Arts"
+    },
+    {
+        "id": 6,
+        "name": "Redes"
+    }
+  ],
+  "news": [
+    {
+        "id": 1,
+        "title": "Zelenski dice que Trump vive en una “burbuja de desinformación”",
+        "subtitle": "El mandatario reacciona a las críticas de su homólogo estadounidense, que ha culpado a Ucrania de haber iniciado la guerra",
+        "description": "El presidente ucraniano, Volodímir Zelenski, ha dicho esta mañana que Donald Trump  “vive en una burbuja de desinformación”, después de que el presidente estadounidense cuestionara ayer su legitimidad y responsabilizara a Ucrania del inicio de la guerra.",
+        "section": "World",
+        "state": ""
+    },
+    {
+        "id": 2,
+        "title": "La NASA eleva el riesgo de impacto del asteroide 2024 YR4 contra la Tierra, el mayor jamás registrado",
+        "subtitle": "El objeto tiene entre 40 y 90 metros de ancho y su impacto podría ser 500 veces más fuerte que la bomba nuclear de Hiroshima",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/01/30/679bb610dd536.r_d.960-540-5156.jpeg",
+        "description": "El asteroide YR4, recientemente descubierto por astrónomos, tiene ahora un 3,1% de probabilidades de impactar contra la Tierra en el 2032, el nivel más alto registrado desde el inicio de la vigilancia, según cálculos publicados este martes por la NASA.",
+        "section": "World",
+        "state": ""
+    },
+    {
+        "id": 3,
+        "title": "Sánchez rechaza los planes de expulsión de Trump y Netanyahu: “Gaza es de los palestinos”",
+        "subtitle": "El presidente egipcio, Al-Sisi, coincide con el mandatario español en oponerse al “desplazamiento forzoso” de palestinos de la Franja, y llama también a Israel a retirarse de los Altos del Golán y del Líbano",
+        "image": "",
+        "description": "Pedro Sánchez ya rechazó tajantemente el pasado sábado los planes de Donald Trump y Beniamin Netanyahu para la Franja: “Ninguna operación inmobiliaria va a tapar la ignominia y los crímenes de lesa humanidad en Gaza”, advirtió. Y este miércoles, tras su reunión en la Moncloa con el presidente de Egipto, Abdelfatah Al-Sisi, ha recalcado su total oposición a la agenda de los mandatarios de Estados Unidos y de Israel ante la crisis en Oriente Medio: “Gaza es de los palestinos”, ha advertido.",
+        "section": "World",
+        "state": ""
+    },
+    {
+        "id": 4,
+        "title": "Un 46,5% de los catalanes tiene el castellano como lengua habitual única y un 32,6% el catalán",
+        "subtitle": "La encuesta del 2023 del Govern apunta que un 93,4% de los ciudadanos en Catalunya entiende el catalán y un 80,4% lo sabe hablar, una caída leve respecto al sondeo del 2018",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2024/04/19/662270117edb0.r_d.1772-1181-2793.jpeg",
+        "description": "La encuesta del 2023 del Govern apunta que un 93,4% de los ciudadanos en Catalunya entiende el catalán y un 80,4% lo sabe hablar, una caída leve respecto al sondeo del 2018.",
+        "section": "Spain",
+        "state": ""
+    },
+    {
+        "id": 5,
+        "title": "El juez pone al humorista Quequé a un paso del banquillo por un delito de odio",
+        "subtitle": "El magistrado Carlos Valle considera que Héctor de Miguel pudo incitar al odio al decir por antena que habría que quemar el Valle de los Caídos",
+        "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2022/11/30/63874177e2617.png",
+        "description": "El juez de Madrid Carlos Valle ha finalizado la instrucción y ha dado un paso más para sentar en el banquillo de los acusados al humorista Héctor de Miguel por un presunto delito de odio. El instructor ha dado traslado para que las partes, es decir, fiscalía y los querellantes, Abogados Cristianos, presenten sus escritos de acusación. ",
+        "section": "Spain",
+        "state": ""
+    },
+    {
+        "id": 6,
+        "title": "Junts defiende su plante en Ripoll por el “efecto boomerang” de un “gobierno Frankenstein”",
+        "subtitle": "Sílvia Orriols atribuye el fracaso de la moción de censura a la dirección de JxCat y se abre a acuerdos futuros con see partido",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/18/67b4bbaceb0e9.r_d.2105-1331-2342.jpeg",
+        "description": "El secretario general de Junts, Jordi Turull, ha defendido la negativa de su formación a liderar una moción de censura contra la actual alcaldesa de Ripoll, la líder de la ultraderechista Aliança Catalana, Sílvia Orriols, por el temor a un “efecto boomerang” que a su juicio hubiera tenido la necesaria formación de un “gobierno Frankenstein, formado por su partido, Esquerra y PSC con el apoyo externo de la CUP.",
+        "section": "Spain",
+        "state": ""
+    },
+    {
+        "id": 7,
+        "title": "Las hipotecas para vivienda crecieron un 11% en un 2024 marcado por la bajada de tipos",
+        "subtitle": "El tipo medio de los préstamos fue del 3,26%, con la variante fija como favorita",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/07/67a5ea3c865d8.r_d.3134-2022-1569.jpeg",
+        "description": "La firma de hipotecas para vivienda creció un 11% en el 2024 gracias al descenso de los tipos de interés, que animaron el mercado. Los datos presentados este miércoles por el INE apuntan al mejor dato desde el 2022, con 423.761 préstamos. Es una recuperación tras el bache del año pasado, cuando el ciclo de encarecimiento de la financiación hizo que las hipotecas cayeran un 18%. ",
+        "section": "Economy",
+        "state": ""
+    },
+    {
+        "id": 8,
+        "title": "El Govern presenta un clúster de empresas financieras",
+        "subtitle": "La consellera Romero: “Necesitamos tener un sistema financiero robusto y dinámico, que sea capaz de adaptarse a los nuevos retos que tenemos delante”",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/19/67b5dc4ad8ad2.r_d.3439-3362-1501.jpeg",
+        "description": "La Generalitat ha presentado esta mañana el Barcelona Finance Cluster, un organismo que quiere posicionar Barcelona como referente en la innovación y la sostenibilidad del ámbito financiero.",
+        "section": "Economy",
+        "state": ""
+    },
+    {
+        "id": 9,
+        "title": "Competición sanciona con dos partidos a Bellingham",
+        "subtitle": "Los jueces consideran las palabras del inglés un menosprecio y no un insulto y el Real Madrid recurrirá ante Apelación.",
+        "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2025/02/18/67b471871010f.jpeg",
+        "description": "El Real Madrid ha salido bastante bien librado de la roja a Jude Bellingham del pasado sábado en el Sadar ante el Osasuna. El Comité de Competición de la Federación Española de Fútbol impuso esta mañana dos partidos de sanción al inglés por considerar que las palabras que dirigió al colegiado (fuck you, según el acta) son un menosprecio o una desconsideración y no un insulto. De haber atendido a esto último a Bellingham le hubieran caído de cuatro a doce partidos.",
+        "section": "Sports",
+        "state": ""
+    },
+    {
+        "id": 10,
+        "title": "Raducanu rompe a llorar en pleno partido tras ver en la grada a un hombre que la acosó",
+        "subtitle": "La WTA expulsó del recinto al acosador después de que la tenista británica notificara lo ocurrido a la juez de silla y le impedirá el acceso a cualquiera de sus torneos",
+        "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2025/02/19/67b5f6363a4b2.jpeg",
+        "description": "La tenista británica Emma Raducanu vivió una situación horrorosa durante su partido este martes en el torneo de Dubái. Cuando perdía por 2-0 ante la checa Karolina Muchova, rompió a llorar y se acercó visiblemente muy afectada a la juez de silla para explicarle lo que estaba ocurriendo. Vio en las primeras filas de la grada a un hombre que el día anterior la había acosado en la calle.",
+        "section": "Sports",
+        "state": ""
+    },
+    {
+        "id": 11,
+        "title": "Lamine Yamal: “Barça, Madrid y Atlético no nos podemos quejar de los árbitros”",
+        "subtitle": "El delantero culé cree que “este puede ser el año” para conseguir más títulos y se muestra optimista con la renovación",
+        "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2025/02/09/67a909147954d.jpeg",
+        "description": "El delantero del Barça, Lamine Yamal, ha concedido una entrevista a Mundo Deportivo en la que repasa la actualidad azulgrana, el momento del equipo, su situación en el club y la polémica arbitral de la que tanto se está hablando en las últimas semanas. Sobre esta última cuestión, el de Rocafonda lo tiene claro: “Creo que nosotros, el Real Madrid y el Atlético no nos podemos quejar de los árbitros”.",
+        "section": "Sports",
+        "state": ""
+    },
+    {
+        "id": 12,
+        "title": "La Berlinale en fotos para la historia: estrellas, cámaras y glamur",
+        "subtitle": "El Stadtmuseum de Berlín exhibe en una muestra digital imágenes de las primeras décadas del veterano festival internacional de cine en imágenes tomadas por el fotoperiodista Harry Croner ",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/12/67acd3c131f4b.r_d.1009-450-4860.jpeg",
+        "description": "La Berlinale, el veterano festival internacional de cine de Berlín, celebra este año su 75.ª edición, convertido en una cita ineludible en el panorama cinematográfico europeo e internacional, en una terna junto a los de Cannes y Venecia. Fundado en 1951 para el público berlinés, a inicios de la guerra fría, cuando Berlín era una ciudad dividida con casas todavía en ruinas pero el muro aún no existía, el certamen se convirtió poco a poco en una pasarela de estrellas y en una ventana a occidente para Berlín Oeste.",
+        "section": "Arts",
+        "state": ""
+    },
+    {
+        "id": 13,
+        "title": "Montoya, tras convertirse en un fenómeno internacional por su comportamiento en 'La isla de las Tentaciones': ''No sé qué está pasando''",
+        "subtitle": "Los vídeos protagonizados por el joven andaluz han dado la vuelta al mundo",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/10/67a9b3fb72a53.r_d.526-273-9411.jpeg",
+        "description": "José Carlos Montoya se ha convertido en una de las figuras públicas más buscadas de las últimas semanas. El joven andaluz tiene una amplia trayectoria en la pequeña pantalla, pero se ha hecho viral tras participar en la octava edición del reality de Telecinco La Isla de las Tentaciones.",
+        "section": "Redes",
+        "state": ""
+    },
+    {
+        "id": 3,
+        "title": "Sánchez rechaza los planes de expulsión de Trump y Netanyahu: “Gaza es de los palestinos”",
+        "subtitle": "El presidente egipcio, Al-Sisi, coincide con el mandatario español en oponerse al “desplazamiento forzoso” de palestinos de la Franja, y llama también a Israel a retirarse de los Altos del Golán y del Líbano",
+        "image": "",
+        "description": "Pedro Sánchez ya rechazó tajantemente el pasado sábado los planes de Donald Trump y Beniamin Netanyahu para la Franja: “Ninguna operación inmobiliaria va a tapar la ignominia y los crímenes de lesa humanidad en Gaza”, advirtió. Y este miércoles, tras su reunión en la Moncloa con el presidente de Egipto, Abdelfatah Al-Sisi, ha recalcado su total oposición a la agenda de los mandatarios de Estados Unidos y de Israel ante la crisis en Oriente Medio: “Gaza es de los palestinos”, ha advertido.",
+        "section": "World",
+        "state": ""
+    },
+    {
+        "id": 3,
+        "title": "Sánchez rechaza los planes de expulsión de Trump y Netanyahu: “Gaza es de los palestinos”",
+        "subtitle": "El presidente egipcio, Al-Sisi, coincide con el mandatario español en oponerse al “desplazamiento forzoso” de palestinos de la Franja, y llama también a Israel a retirarse de los Altos del Golán y del Líbano",
+        "image": "",
+        "description": "Pedro Sánchez ya rechazó tajantemente el pasado sábado los planes de Donald Trump y Beniamin Netanyahu para la Franja: “Ninguna operación inmobiliaria va a tapar la ignominia y los crímenes de lesa humanidad en Gaza”, advirtió. Y este miércoles, tras su reunión en la Moncloa con el presidente de Egipto, Abdelfatah Al-Sisi, ha recalcado su total oposición a la agenda de los mandatarios de Estados Unidos y de Israel ante la crisis en Oriente Medio: “Gaza es de los palestinos”, ha advertido.",
+        "section": "World",
+        "state": ""
+    }
+  ]
+}
