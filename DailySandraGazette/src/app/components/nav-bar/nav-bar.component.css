@@ -1,0 +1,35 @@
+.sections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 5%;
+    background-color: #fff;
+    border-bottom: 3px double black;
+    position: sticky;
+    top: 0px;
+
+    a {
+        border: none;
+        background-color: transparent;
+        text-decoration: none;
+        color: #555;
+        font-weight: bold;
+    }
+
+    a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+button {
+    background: #356598;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 14px;
+}

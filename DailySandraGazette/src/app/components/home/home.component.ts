@@ -1,10 +1,13 @@
 import { Component, inject } from '@angular/core';
 import { SectionsService } from '../../servicios/sections.service';
 import { NewsService } from '../../servicios/news.service';
+import { ArticleComponent } from '../article/article.component';
+import { RouterLink } from '@angular/router';
+import { NavBarComponent } from "../nav-bar/nav-bar.component";
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [ArticleComponent, RouterLink, NavBarComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -17,16 +20,19 @@ export class HomeComponent {
   public news: any = []
 
 
-  getSections() {
-    this.sectionsService.getSectionList().subscribe((response) => this.sections = response);
-  }
+  
 
   getNews() {
-    this.newsService.getNewsList().subscribe((response) => this.news = response);
+    this.sectionsService.getSectionList().subscribe((response) => {
+      this.sections = response;
+      this.newsService.getNewsList().subscribe((response) => {
+        this.news = response;
+        console.log(this.news);
+      })
+    })
   }
 
   ngOnInit() {
-    this.getSections();
     this.getNews();
   }
 }

@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    li {
+        text-decoration: underline;
+        font-size: 12px;
+    }
+    li:hover {
+        cursor: pointer;
+    }
+}
+
+p {
+    font-size: 12px;
+}

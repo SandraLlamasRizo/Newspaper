@@ -1,0 +1,29 @@
+.news-section {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.section {
+    margin: 0px 5%;
+    border-bottom: 2px solid rgb(124, 124, 124);
+    color: #555;
+
+    h4 {
+        font-weight: lighter;
+    }
+
+    a {
+        text-decoration: none;
+        color: #555;
+    }
+}
+
+.news-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 15px;
+}

@@ -1,11 +1,10 @@
-<section class="newsList">
-    @for (item of newsSection; track $index) {
-        <article>
-            <img src={{item.image}} alt="">
-            <h3>{{item.title}}</h3>
-            <h5>{{item.subtitle}}</h5>
-            <p>{{item.description}}</p>
-        </article>
-    }
+<app-nav-bar></app-nav-bar>
+<section class="news-section">
+    <h4>{{section}}</h4>
+    <section class="section">
+        @for (item of newsSection; track $index) {
+            <app-article [item]="item"></app-article>
+        }
 
+    </section>
 </section>

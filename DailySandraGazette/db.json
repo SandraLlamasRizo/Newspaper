@@ -30,8 +30,10 @@
         "id": 1,
         "title": "Zelenski dice que Trump vive en una “burbuja de desinformación”",
         "subtitle": "El mandatario reacciona a las críticas de su homólogo estadounidense, que ha culpado a Ucrania de haber iniciado la guerra",
+        "image": "https://static01.nyt.com/images/2025/02/19/multimedia/19ukraine-zelensky-zwvl/19ukraine-zelensky-zwvl-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale",
         "description": "El presidente ucraniano, Volodímir Zelenski, ha dicho esta mañana que Donald Trump  “vive en una burbuja de desinformación”, después de que el presidente estadounidense cuestionara ayer su legitimidad y responsabilizara a Ucrania del inicio de la guerra.",
         "section": "World",
+        "min": 10,
         "state": ""
     },
     {
@@ -41,15 +43,17 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/01/30/679bb610dd536.r_d.960-540-5156.jpeg",
         "description": "El asteroide YR4, recientemente descubierto por astrónomos, tiene ahora un 3,1% de probabilidades de impactar contra la Tierra en el 2032, el nivel más alto registrado desde el inicio de la vigilancia, según cálculos publicados este martes por la NASA.",
         "section": "World",
+        "min": 8,
         "state": ""
     },
     {
         "id": 3,
         "title": "Sánchez rechaza los planes de expulsión de Trump y Netanyahu: “Gaza es de los palestinos”",
         "subtitle": "El presidente egipcio, Al-Sisi, coincide con el mandatario español en oponerse al “desplazamiento forzoso” de palestinos de la Franja, y llama también a Israel a retirarse de los Altos del Golán y del Líbano",
-        "image": "",
+        "image": "https://images.ecestaticos.com/TOBMQ9FI2TNULGoDB_GQd-oTDJg=/0x0:2272x1515/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F067%2F7af%2Fc32%2F0677afc320e1c896cd4736de6fc74245.jpg",
         "description": "Pedro Sánchez ya rechazó tajantemente el pasado sábado los planes de Donald Trump y Beniamin Netanyahu para la Franja: “Ninguna operación inmobiliaria va a tapar la ignominia y los crímenes de lesa humanidad en Gaza”, advirtió. Y este miércoles, tras su reunión en la Moncloa con el presidente de Egipto, Abdelfatah Al-Sisi, ha recalcado su total oposición a la agenda de los mandatarios de Estados Unidos y de Israel ante la crisis en Oriente Medio: “Gaza es de los palestinos”, ha advertido.",
         "section": "World",
+        "min": 12,
         "state": ""
     },
     {
@@ -59,6 +63,7 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2024/04/19/662270117edb0.r_d.1772-1181-2793.jpeg",
         "description": "La encuesta del 2023 del Govern apunta que un 93,4% de los ciudadanos en Catalunya entiende el catalán y un 80,4% lo sabe hablar, una caída leve respecto al sondeo del 2018.",
         "section": "Spain",
+        "min": 5,
         "state": ""
     },
     {
@@ -68,6 +73,7 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2022/11/30/63874177e2617.png",
         "description": "El juez de Madrid Carlos Valle ha finalizado la instrucción y ha dado un paso más para sentar en el banquillo de los acusados al humorista Héctor de Miguel por un presunto delito de odio. El instructor ha dado traslado para que las partes, es decir, fiscalía y los querellantes, Abogados Cristianos, presenten sus escritos de acusación. ",
         "section": "Spain",
+        "min": 10,
         "state": ""
     },
     {
@@ -77,6 +83,7 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/18/67b4bbaceb0e9.r_d.2105-1331-2342.jpeg",
         "description": "El secretario general de Junts, Jordi Turull, ha defendido la negativa de su formación a liderar una moción de censura contra la actual alcaldesa de Ripoll, la líder de la ultraderechista Aliança Catalana, Sílvia Orriols, por el temor a un “efecto boomerang” que a su juicio hubiera tenido la necesaria formación de un “gobierno Frankenstein, formado por su partido, Esquerra y PSC con el apoyo externo de la CUP.",
         "section": "Spain",
+        "min": 8,
         "state": ""
     },
     {
@@ -86,6 +93,7 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/07/67a5ea3c865d8.r_d.3134-2022-1569.jpeg",
         "description": "La firma de hipotecas para vivienda creció un 11% en el 2024 gracias al descenso de los tipos de interés, que animaron el mercado. Los datos presentados este miércoles por el INE apuntan al mejor dato desde el 2022, con 423.761 préstamos. Es una recuperación tras el bache del año pasado, cuando el ciclo de encarecimiento de la financiación hizo que las hipotecas cayeran un 18%. ",
         "section": "Economy",
+        "min": 5,
         "state": ""
     },
     {
@@ -95,6 +103,7 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/19/67b5dc4ad8ad2.r_d.3439-3362-1501.jpeg",
         "description": "La Generalitat ha presentado esta mañana el Barcelona Finance Cluster, un organismo que quiere posicionar Barcelona como referente en la innovación y la sostenibilidad del ámbito financiero.",
         "section": "Economy",
+        "min": 6,
         "state": ""
     },
     {
@@ -104,6 +113,7 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2025/02/18/67b471871010f.jpeg",
         "description": "El Real Madrid ha salido bastante bien librado de la roja a Jude Bellingham del pasado sábado en el Sadar ante el Osasuna. El Comité de Competición de la Federación Española de Fútbol impuso esta mañana dos partidos de sanción al inglés por considerar que las palabras que dirigió al colegiado (fuck you, según el acta) son un menosprecio o una desconsideración y no un insulto. De haber atendido a esto último a Bellingham le hubieran caído de cuatro a doce partidos.",
         "section": "Sports",
+        "min": 8,
         "state": ""
     },
     {
@@ -113,6 +123,7 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2025/02/19/67b5f6363a4b2.jpeg",
         "description": "La tenista británica Emma Raducanu vivió una situación horrorosa durante su partido este martes en el torneo de Dubái. Cuando perdía por 2-0 ante la checa Karolina Muchova, rompió a llorar y se acercó visiblemente muy afectada a la juez de silla para explicarle lo que estaba ocurriendo. Vio en las primeras filas de la grada a un hombre que el día anterior la había acosado en la calle.",
         "section": "Sports",
+        "min": 10,
         "state": ""
     },
     {
@@ -122,6 +133,7 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2025/02/09/67a909147954d.jpeg",
         "description": "El delantero del Barça, Lamine Yamal, ha concedido una entrevista a Mundo Deportivo en la que repasa la actualidad azulgrana, el momento del equipo, su situación en el club y la polémica arbitral de la que tanto se está hablando en las últimas semanas. Sobre esta última cuestión, el de Rocafonda lo tiene claro: “Creo que nosotros, el Real Madrid y el Atlético no nos podemos quejar de los árbitros”.",
         "section": "Sports",
+        "min": 5,
         "state": ""
     },
     {
@@ -131,6 +143,7 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/12/67acd3c131f4b.r_d.1009-450-4860.jpeg",
         "description": "La Berlinale, el veterano festival internacional de cine de Berlín, celebra este año su 75.ª edición, convertido en una cita ineludible en el panorama cinematográfico europeo e internacional, en una terna junto a los de Cannes y Venecia. Fundado en 1951 para el público berlinés, a inicios de la guerra fría, cuando Berlín era una ciudad dividida con casas todavía en ruinas pero el muro aún no existía, el certamen se convirtió poco a poco en una pasarela de estrellas y en una ventana a occidente para Berlín Oeste.",
         "section": "Arts",
+        "min": 4,
         "state": ""
     },
     {
@@ -140,24 +153,57 @@
         "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/10/67a9b3fb72a53.r_d.526-273-9411.jpeg",
         "description": "José Carlos Montoya se ha convertido en una de las figuras públicas más buscadas de las últimas semanas. El joven andaluz tiene una amplia trayectoria en la pequeña pantalla, pero se ha hecho viral tras participar en la octava edición del reality de Telecinco La Isla de las Tentaciones.",
         "section": "Redes",
+        "min": 10,
         "state": ""
     },
     {
-        "id": 3,
-        "title": "Sánchez rechaza los planes de expulsión de Trump y Netanyahu: “Gaza es de los palestinos”",
-        "subtitle": "El presidente egipcio, Al-Sisi, coincide con el mandatario español en oponerse al “desplazamiento forzoso” de palestinos de la Franja, y llama también a Israel a retirarse de los Altos del Golán y del Líbano",
-        "image": "",
-        "description": "Pedro Sánchez ya rechazó tajantemente el pasado sábado los planes de Donald Trump y Beniamin Netanyahu para la Franja: “Ninguna operación inmobiliaria va a tapar la ignominia y los crímenes de lesa humanidad en Gaza”, advirtió. Y este miércoles, tras su reunión en la Moncloa con el presidente de Egipto, Abdelfatah Al-Sisi, ha recalcado su total oposición a la agenda de los mandatarios de Estados Unidos y de Israel ante la crisis en Oriente Medio: “Gaza es de los palestinos”, ha advertido.",
-        "section": "World",
+        "id": 14,
+        "title": "Anabel Pantoja y David Rodríguez permanecen atentos a la dilatación de la causa por su hija: “Están muy preocupados”",
+        "subtitle": "El tremendo enfado de Anabel Pantoja tras poner rumbo a Córdoba con David Rodríguez y su hija Alma: “Ha reaccionado impulsiva”",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/01/31/679cbbd695f42.r_d.795-322.jpeg",
+        "description": "Anabel Pantoja y David Rodríguez han sido dos de los nombres más comentados en de los primeros meses de 2025. El nacimiento de su hija Alma ha ocupado gran parte de la actualidad en la crónica social, después de pasar 18 días ingresada en el Hospital Materno Infantil de Gran Canaria. La posterior investigación del Tribunal Superior de Justicia de Canarias (TSJC), sobre las lesiones de la menor, multiplicó el interés mediático por los tres implicados.",
+        "section": "Redes",
+        "min": 5,
         "state": ""
     },
     {
-        "id": 3,
-        "title": "Sánchez rechaza los planes de expulsión de Trump y Netanyahu: “Gaza es de los palestinos”",
-        "subtitle": "El presidente egipcio, Al-Sisi, coincide con el mandatario español en oponerse al “desplazamiento forzoso” de palestinos de la Franja, y llama también a Israel a retirarse de los Altos del Golán y del Líbano",
-        "image": "",
-        "description": "Pedro Sánchez ya rechazó tajantemente el pasado sábado los planes de Donald Trump y Beniamin Netanyahu para la Franja: “Ninguna operación inmobiliaria va a tapar la ignominia y los crímenes de lesa humanidad en Gaza”, advirtió. Y este miércoles, tras su reunión en la Moncloa con el presidente de Egipto, Abdelfatah Al-Sisi, ha recalcado su total oposición a la agenda de los mandatarios de Estados Unidos y de Israel ante la crisis en Oriente Medio: “Gaza es de los palestinos”, ha advertido.",
-        "section": "World",
+        "id": 15,
+        "title": "Aitana revela en 'La Revuelta' la brutal fortuna que ha conseguido en sus ocho años de carrera y la gente alucina: “Tengo cuatro casas”",
+        "subtitle": "La cantante catalana ha levantado las críticas en redes sociales al confesar el patrimonio que tiene a sus espaldas con tan solo 25 años",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/20/67b6f203bfd0d.r_d.931-505-5317.jpeg",
+        "description": "Aitana ha decidido someterse a toda una catarsis en forma de documental en el que está dispuesta a hablar de los aspectos más profundos y oscuros de su vida. Si bien no le suele gustar que su vida privada sea objeto de miles de titulares a lo largo del año, ha decidido que ha llegado el momento de explicar todo lo que ella misma quiere contar.",
+        "section": "Redes",
+        "min": 8,
+        "state": ""
+    },
+    {
+        "id": 16,
+        "title": "'Nezha 2' rompe récords y supera a 'Del revés 2' como la animación más taquillera de la historia",
+        "subtitle": "La secuela china dirigida por Jiaozi se ha convertido en un éxito mundial con una recaudación global de 1.616 millones de euros",
+        "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2025/02/19/67b5a6d97049a.jpeg",
+        "description": "El cine de animación chino ha destronado a la secuela de Disney Pixar Del revés 2, con el éxito mundial de Nezha 2, dirigida por Jiaozi, que ostenta el título de la película animada más taquillera de la historia.",
+        "section": "Arts",
+        "min": 4,
+        "state": ""
+    },
+    {
+        "id": 17,
+        "title": "Aparece asesinado de un tiro el exalcalde de Gandia Arturo Torró",
+        "subtitle": "Tenía pendiente cumplir condena de tres años y medio de prisión por malversación en el caso Tele 7",
+        "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2022/12/12/639744462ea30.jpeg",
+        "description": "La Guardia Civil investiga la muerte violenta del empresario y exalcalde de Gandia Arturo Torró, cuyo cuerpo sin vida ha sido encontrado esta madrugada junto al vehículo que conducía, según han confirmado este jueves fuentes del instituto armado.",
+        "section": "Spain",
+        "min": 10,
+        "state": ""
+    },
+    {
+        "id": 18,
+        "title": "Vox rescata a Mazón en la votación pedida por Compromís para pedir su dimisión",
+        "subtitle": "El president agradece el apoyo de la formación de Abascal: “sé que puedo contar con ustedes, son la única colaboración que me queda en esta cámara”",
+        "image": "https://www.lavanguardia.com/files/image_990_484/uploads/2025/02/20/67b6fd53bc7a0.jpeg",
+        "description": "Vox ha salvado hoy a Carlos Mazón en una votación en les Corts Valencianes con fuerte carga simbólica. A propuesta de Compromís, se ha oficiado una votación de una Proposición no de Ley en la que se pedía la dimisión del president de la Generalitat Valenciana por su gestión de la dana. La izquierda ha votado en bloque a favor de esta iniciativa, pero el PP ha encontrado en la formación de Abascal el aliado necesario para superar la situación. Carlos Mazón, momentos antes de la votación, ha dicho, mirando al grupo voxista, que “realmente cuento con su colaboración, la única que nos queda es la suya”.",
+        "section": "Spain",
+        "min": 12,
         "state": ""
     }
   ]

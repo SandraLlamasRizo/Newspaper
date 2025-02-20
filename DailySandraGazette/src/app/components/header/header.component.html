@@ -3,7 +3,7 @@
         <p>{{dayWeek}}, {{day}} {{month}}, {{year}}</p>
     </article>
     <article class="title">
-        <h1>Daily Sandra Gazette</h1>
+        <h1><a [routerLink]="['/home']">Daily Sandra Gazette</a></h1>
     </article>
     <article class="buscador">
         <div>
@@ -12,9 +12,4 @@
             <button>Go</button>
         </div>
     </article>
-</section>
-<section class="sections">
-    @for (section of sections; track $index) {
-        <a [routerLink]="['/section', section.name]">{{section.name}}</a>
-    }
 </section>

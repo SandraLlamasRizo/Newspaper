@@ -1,23 +1,26 @@
 import { Component, inject } from '@angular/core';
 import { SectionsService } from '../../servicios/sections.service';
 import { RouterLink } from '@angular/router';
+import { SubscriptionComponent } from "../subscription/subscription.component";
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-header',
-  imports: [RouterLink],
+  imports: [RouterLink, SubscriptionComponent, CommonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
 
-  private sectionsService: SectionsService = inject(SectionsService)
-  public sections: any = [];
+  
 
   public now = new Date
   public day = 0;
   public dayWeek = '';
   public month = '';
   public year = 0;
+
+  public isModalOpen = false;
 
 
   getDate() {
@@ -32,13 +35,19 @@ export class HeaderComponent {
     this.year = this.now.getFullYear(); 
   }
 
-  getSections() {
-    this.sectionsService.getSectionList().subscribe((response) => this.sections = response);
-  }
+ 
 
   ngOnInit() {
     this.getDate();
-    this.getSections();
   }
 
+  openModal() {
+    console.log('opening modal')
+    this.isModalOpen = true
+  }
+
+  closeModal() {
+    
+    this.isModalOpen = false
+  }
 }

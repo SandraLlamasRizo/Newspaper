@@ -1,0 +1,10 @@
+<section class="sections">
+    @for (section of sections; track $index) {
+    <a [routerLink]="['/section', section.name]">{{section.name}}</a>
+    }
+    <div class="buttons">
+        <button (click)="openModal()">SUBSCRIBE</button>
+        <button [routerLink]="['/login']">LOG IN</button>
+    </div>
+</section>
+<app-subscription *ngIf="isModalOpen" (closeModalEvent)="closeModal()"></app-subscription>
