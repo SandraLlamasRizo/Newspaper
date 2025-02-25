@@ -1,0 +1,10 @@
+<app-nav-bar (enviar)="recibir($event)"></app-nav-bar>
+<a class="back" [routerLink]="['/home']"> <i class="fa-solid fa-arrow-left"></i> back</a>
+<section class="news-section">
+    <section class="section">
+        <h4></h4>
+        @for (item of revisionNews; track $index) {
+        <a><app-article [userRole]="userRole" [item]="item"></app-article></a>
+        }
+    </section>
+</section>

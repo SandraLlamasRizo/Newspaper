@@ -9,5 +9,6 @@ import { Component, Input } from '@angular/core';
 export class ArticleComponent {
 
   @Input() item: any = '';
+  @Input() userRole: any = '';
 
 }

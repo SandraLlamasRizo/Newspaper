@@ -4,6 +4,8 @@ import { NewsService } from '../../servicios/news.service';
 import { ArticleComponent } from '../article/article.component';
 import { RouterLink } from '@angular/router';
 import { NavBarComponent } from "../nav-bar/nav-bar.component";
+import { EditorComponent } from "../../admin/components/editor/editor.component";
+import { WriterComponent } from "../../admin/components/writer/writer.component";
 
 @Component({
   selector: 'app-home',
@@ -16,17 +18,17 @@ export class HomeComponent {
   private sectionsService: SectionsService = inject(SectionsService);
   private newsService: NewsService = inject(NewsService);
   public sections: any = [];
+  public news: any = [];
+  public publishedNews: any = [];
+  public userRole: string | null = localStorage.getItem('userRole');
 
-  public news: any = []
-
-
-  
 
   getNews() {
     this.sectionsService.getSectionList().subscribe((response) => {
       this.sections = response;
       this.newsService.getNewsList().subscribe((response) => {
         this.news = response;
+        this.publishedNews = this.news.filter((item: any) => item.state === 'Published')
         console.log(this.news);
       })
     })
@@ -34,5 +36,9 @@ export class HomeComponent {
 
   ngOnInit() {
     this.getNews();
+  }
+
+  recibir(evento: any) {
+    this.userRole = evento;
   }
 }

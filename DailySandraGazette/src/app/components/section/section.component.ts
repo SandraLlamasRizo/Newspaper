@@ -17,9 +17,10 @@ export class SectionComponent {
 
   public item: any = ''
 
-  news: any = []
-  newsSection: any = [];
-  section: string = ''
+  public news: any = [];
+  public newsSection: any = [];
+  public section: string = '';
+  public publishedNews: any = [];
 
   ngOnInit() {
     this.activatedRoute.params.subscribe(params => {
@@ -27,6 +28,7 @@ export class SectionComponent {
         this.news = response;
         this.section = params['section'];
         this.newsSection = this.news.filter((item: any) => item.section === params['section']);
+        this.publishedNews = this.newsSection.filter((item: any) => item.state === 'Published');
       })
     })
   }

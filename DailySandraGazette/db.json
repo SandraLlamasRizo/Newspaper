@@ -34,7 +34,7 @@
         "description": "El presidente ucraniano, Volodímir Zelenski, ha dicho esta mañana que Donald Trump  “vive en una burbuja de desinformación”, después de que el presidente estadounidense cuestionara ayer su legitimidad y responsabilizara a Ucrania del inicio de la guerra.",
         "section": "World",
         "min": 10,
-        "state": ""
+        "state": "Revision"
     },
     {
         "id": 2,
@@ -44,7 +44,7 @@
         "description": "El asteroide YR4, recientemente descubierto por astrónomos, tiene ahora un 3,1% de probabilidades de impactar contra la Tierra en el 2032, el nivel más alto registrado desde el inicio de la vigilancia, según cálculos publicados este martes por la NASA.",
         "section": "World",
         "min": 8,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 3,
@@ -54,7 +54,7 @@
         "description": "Pedro Sánchez ya rechazó tajantemente el pasado sábado los planes de Donald Trump y Beniamin Netanyahu para la Franja: “Ninguna operación inmobiliaria va a tapar la ignominia y los crímenes de lesa humanidad en Gaza”, advirtió. Y este miércoles, tras su reunión en la Moncloa con el presidente de Egipto, Abdelfatah Al-Sisi, ha recalcado su total oposición a la agenda de los mandatarios de Estados Unidos y de Israel ante la crisis en Oriente Medio: “Gaza es de los palestinos”, ha advertido.",
         "section": "World",
         "min": 12,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 4,
@@ -64,7 +64,7 @@
         "description": "La encuesta del 2023 del Govern apunta que un 93,4% de los ciudadanos en Catalunya entiende el catalán y un 80,4% lo sabe hablar, una caída leve respecto al sondeo del 2018.",
         "section": "Spain",
         "min": 5,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 5,
@@ -74,7 +74,7 @@
         "description": "El juez de Madrid Carlos Valle ha finalizado la instrucción y ha dado un paso más para sentar en el banquillo de los acusados al humorista Héctor de Miguel por un presunto delito de odio. El instructor ha dado traslado para que las partes, es decir, fiscalía y los querellantes, Abogados Cristianos, presenten sus escritos de acusación. ",
         "section": "Spain",
         "min": 10,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 6,
@@ -84,7 +84,7 @@
         "description": "El secretario general de Junts, Jordi Turull, ha defendido la negativa de su formación a liderar una moción de censura contra la actual alcaldesa de Ripoll, la líder de la ultraderechista Aliança Catalana, Sílvia Orriols, por el temor a un “efecto boomerang” que a su juicio hubiera tenido la necesaria formación de un “gobierno Frankenstein, formado por su partido, Esquerra y PSC con el apoyo externo de la CUP.",
         "section": "Spain",
         "min": 8,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 7,
@@ -94,7 +94,7 @@
         "description": "La firma de hipotecas para vivienda creció un 11% en el 2024 gracias al descenso de los tipos de interés, que animaron el mercado. Los datos presentados este miércoles por el INE apuntan al mejor dato desde el 2022, con 423.761 préstamos. Es una recuperación tras el bache del año pasado, cuando el ciclo de encarecimiento de la financiación hizo que las hipotecas cayeran un 18%. ",
         "section": "Economy",
         "min": 5,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 8,
@@ -104,7 +104,7 @@
         "description": "La Generalitat ha presentado esta mañana el Barcelona Finance Cluster, un organismo que quiere posicionar Barcelona como referente en la innovación y la sostenibilidad del ámbito financiero.",
         "section": "Economy",
         "min": 6,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 9,
@@ -114,7 +114,7 @@
         "description": "El Real Madrid ha salido bastante bien librado de la roja a Jude Bellingham del pasado sábado en el Sadar ante el Osasuna. El Comité de Competición de la Federación Española de Fútbol impuso esta mañana dos partidos de sanción al inglés por considerar que las palabras que dirigió al colegiado (fuck you, según el acta) son un menosprecio o una desconsideración y no un insulto. De haber atendido a esto último a Bellingham le hubieran caído de cuatro a doce partidos.",
         "section": "Sports",
         "min": 8,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 10,
@@ -124,7 +124,7 @@
         "description": "La tenista británica Emma Raducanu vivió una situación horrorosa durante su partido este martes en el torneo de Dubái. Cuando perdía por 2-0 ante la checa Karolina Muchova, rompió a llorar y se acercó visiblemente muy afectada a la juez de silla para explicarle lo que estaba ocurriendo. Vio en las primeras filas de la grada a un hombre que el día anterior la había acosado en la calle.",
         "section": "Sports",
         "min": 10,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 11,
@@ -134,7 +134,7 @@
         "description": "El delantero del Barça, Lamine Yamal, ha concedido una entrevista a Mundo Deportivo en la que repasa la actualidad azulgrana, el momento del equipo, su situación en el club y la polémica arbitral de la que tanto se está hablando en las últimas semanas. Sobre esta última cuestión, el de Rocafonda lo tiene claro: “Creo que nosotros, el Real Madrid y el Atlético no nos podemos quejar de los árbitros”.",
         "section": "Sports",
         "min": 5,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 12,
@@ -144,7 +144,7 @@
         "description": "La Berlinale, el veterano festival internacional de cine de Berlín, celebra este año su 75.ª edición, convertido en una cita ineludible en el panorama cinematográfico europeo e internacional, en una terna junto a los de Cannes y Venecia. Fundado en 1951 para el público berlinés, a inicios de la guerra fría, cuando Berlín era una ciudad dividida con casas todavía en ruinas pero el muro aún no existía, el certamen se convirtió poco a poco en una pasarela de estrellas y en una ventana a occidente para Berlín Oeste.",
         "section": "Arts",
         "min": 4,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 13,
@@ -154,7 +154,7 @@
         "description": "José Carlos Montoya se ha convertido en una de las figuras públicas más buscadas de las últimas semanas. El joven andaluz tiene una amplia trayectoria en la pequeña pantalla, pero se ha hecho viral tras participar en la octava edición del reality de Telecinco La Isla de las Tentaciones.",
         "section": "Redes",
         "min": 10,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 14,
@@ -164,7 +164,7 @@
         "description": "Anabel Pantoja y David Rodríguez han sido dos de los nombres más comentados en de los primeros meses de 2025. El nacimiento de su hija Alma ha ocupado gran parte de la actualidad en la crónica social, después de pasar 18 días ingresada en el Hospital Materno Infantil de Gran Canaria. La posterior investigación del Tribunal Superior de Justicia de Canarias (TSJC), sobre las lesiones de la menor, multiplicó el interés mediático por los tres implicados.",
         "section": "Redes",
         "min": 5,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 15,
@@ -174,7 +174,7 @@
         "description": "Aitana ha decidido someterse a toda una catarsis en forma de documental en el que está dispuesta a hablar de los aspectos más profundos y oscuros de su vida. Si bien no le suele gustar que su vida privada sea objeto de miles de titulares a lo largo del año, ha decidido que ha llegado el momento de explicar todo lo que ella misma quiere contar.",
         "section": "Redes",
         "min": 8,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 16,
@@ -184,7 +184,7 @@
         "description": "El cine de animación chino ha destronado a la secuela de Disney Pixar Del revés 2, con el éxito mundial de Nezha 2, dirigida por Jiaozi, que ostenta el título de la película animada más taquillera de la historia.",
         "section": "Arts",
         "min": 4,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 17,
@@ -194,7 +194,7 @@
         "description": "La Guardia Civil investiga la muerte violenta del empresario y exalcalde de Gandia Arturo Torró, cuyo cuerpo sin vida ha sido encontrado esta madrugada junto al vehículo que conducía, según han confirmado este jueves fuentes del instituto armado.",
         "section": "Spain",
         "min": 10,
-        "state": ""
+        "state": "Published"
     },
     {
         "id": 18,
@@ -204,7 +204,17 @@
         "description": "Vox ha salvado hoy a Carlos Mazón en una votación en les Corts Valencianes con fuerte carga simbólica. A propuesta de Compromís, se ha oficiado una votación de una Proposición no de Ley en la que se pedía la dimisión del president de la Generalitat Valenciana por su gestión de la dana. La izquierda ha votado en bloque a favor de esta iniciativa, pero el PP ha encontrado en la formación de Abascal el aliado necesario para superar la situación. Carlos Mazón, momentos antes de la votación, ha dicho, mirando al grupo voxista, que “realmente cuento con su colaboración, la única que nos queda es la suya”.",
         "section": "Spain",
         "min": 12,
-        "state": ""
+        "state": "Revision"
+    },
+    {
+        "id": 19,
+        "title": "Junts abre la puerta a votar en contra de la condonación de la deuda de la Generalitat",
+        "subtitle": "Los posconvergentes dicen que consolida “el café para todos” y aseguran que no es su opción ",
+        "image": "https://www.lavanguardia.com/files/image_990_484/files/fp/uploads/2025/02/25/67bdcc0913c93.r_d.800-600-6188.jpeg",
+        "description": "Junts ha rechazado esta mediodía las medidas establecidas por el Gobierno para la condonación de la deuda de la Generalitat. El presidente de Esquerra Republicana, Oriol Junqueras, anunció ayer que su partido había llegado a un acuerdo con el Gobierno para condonar el 20% de la deuda total de la Generalitat -un 22,2% respecto al Fondo de Liquidez Autonómico (FLA)-. Se trata de uno de los acuerdos para la investidura de Pedro Sánchez que se discutirá mañana en el Consejo de Política Fiscal y Financiera (CPFF).",
+        "section": "Economy",
+        "min": 10,
+        "state": "Draft"
     }
   ]
 }

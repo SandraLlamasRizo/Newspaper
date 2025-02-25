@@ -5,6 +5,10 @@
     <div class="buttons">
         <button (click)="openModal()">SUBSCRIBE</button>
         <button [routerLink]="['/login']">LOG IN</button>
+        @if(userRole) {
+            <button (click)="logout()" style="background-color: rgb(198, 56, 31); margin-left: 30px;">LOG OUT</button>
+        }
+        
     </div>
 </section>
 <app-subscription *ngIf="isModalOpen" (closeModalEvent)="closeModal()"></app-subscription>

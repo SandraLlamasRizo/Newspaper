@@ -2,9 +2,8 @@
 <section class="news-section">
     <h4>{{section}}</h4>
     <section class="section">
-        @for (item of newsSection; track $index) {
+        @for (item of publishedNews; track $index) {
             <app-article [item]="item"></app-article>
         }
-
     </section>
 </section>

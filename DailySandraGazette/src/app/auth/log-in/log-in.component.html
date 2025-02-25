@@ -1,0 +1,33 @@
+<div class="login-container">
+    <h2>Log in</h2>
+    <form [formGroup]="form" class="login-form" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input [class.wrong]="!usernameValid" type="text" id="username" name="username" formControlName="username" required>
+            @if(!usernameValid) {
+                <p class="validator">You should write the username</p>
+            }
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input [class.wrong]="!passwordValid" type="password" id="password" name="password" formControlName="password" required>
+            @if(!passwordValid) {
+            <p class="validator">The password should contain at least one character in upper case, one in lower case and one number (0-9)</p>
+            }
+        </div>
+
+        <div class="form-group">
+            <label for="role">Role</label>
+            <select [class.wrong]="!roleValid" id="role" name="role" formControlName="role" required>
+                <option value="editor">Editor</option>
+                <option value="writer">Writer</option>
+            </select>
+            @if(!roleValid) {
+            <p class="validator">Select a role to log in</p>
+            }
+        </div>
+
+        <button type="submit">Log In</button>
+    </form>
+</div>

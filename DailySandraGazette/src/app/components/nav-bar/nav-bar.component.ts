@@ -1,6 +1,6 @@
-import { Component, inject } from '@angular/core';
+import { Component, EventEmitter, inject, Output } from '@angular/core';
 import { SectionsService } from '../../servicios/sections.service';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { SubscriptionComponent } from '../subscription/subscription.component';
 import { CommonModule } from '@angular/common';
 
@@ -12,8 +12,8 @@ import { CommonModule } from '@angular/common';
 })
 export class NavBarComponent {
 
-
-  private sectionsService: SectionsService = inject(SectionsService)
+  private router: Router = inject(Router);
+  private sectionsService: SectionsService = inject(SectionsService);
   public sections: any = [];
 
   public now = new Date
@@ -23,6 +23,10 @@ export class NavBarComponent {
   public year = 0;
 
   public isModalOpen = false;
+
+  public userRole: string | null = localStorage.getItem('userRole');
+
+  @Output() enviar: EventEmitter<any> = new EventEmitter()
 
   getSections() {
     this.sectionsService.getSectionList().subscribe((response) => this.sections = response);
@@ -39,5 +43,11 @@ export class NavBarComponent {
 
   closeModal() {
     this.isModalOpen = false
+  }
+  logout() {
+    localStorage.removeItem('userRole');
+    this.userRole = null;
+    this.enviar.emit(this.userRole)
+    this.router.navigate(['/home']);
   }
 }

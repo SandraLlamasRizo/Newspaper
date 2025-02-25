@@ -2,11 +2,16 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { SectionComponent } from './components/section/section.component';
 import { Error404Component } from './components/error404/error404.component';
-import { LogInComponent } from './components/log-in/log-in.component';
+import { LogInComponent } from './auth/log-in/log-in.component';
+import { EditorComponent } from './admin/components/editor/editor.component';
+import { WriterComponent } from './admin/components/writer/writer.component';
+import { roleGuard } from './auth/guards/role.guard';
 
 export const routes: Routes = [
     {path: '', redirectTo: '/home', pathMatch: 'full'},
     { path: 'home', component: HomeComponent },
+    {path: 'editor', component: EditorComponent, canActivate: [roleGuard], data: {role: 'editor'}},
+    { path: 'writer', component: WriterComponent, canActivate: [roleGuard], data: {role: 'writer'} },
     { path: 'section/:section', component: SectionComponent },
     { path: 'login', component: LogInComponent},
     { path: '**', component: Error404Component }
