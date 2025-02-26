@@ -1,0 +1,161 @@
+.edit-container {
+    padding: 20px;
+    width: 800px;
+    border-radius: 8px;
+
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: left;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #333;
+}
+
+input,
+select,
+textarea {
+    margin-top: 5px;
+    width: 97%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Lora", serif;
+}
+
+select {
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #2a82b8;
+    outline: none;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #347bc7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.draft {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #989898;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #aa4949;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: #356598;
+}
+
+.submit:active {
+    background-color: #1a5d88;
+}
+
+.draft:hover {
+    background-color: #6e6e6e;
+}
+
+.draft:active {
+    background-color: #1a5d88;
+}
+
+.remove:hover {
+    background-color: #601919;
+}
+
+.remove:active {
+    background-color: #881a1a;
+}
+
+.validator {
+    margin-top: 0px;
+    color: rgb(201, 23, 23);
+    font-size: 14px;
+}
+
+.wrong {
+    border: 1px solid rgb(201, 23, 23);
+}
+
+.back {
+    display: block;
+    color: #555;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+.button-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.3fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+.delete {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #eb5151;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete:hover {
+    background-color: #983535;
+}
+
+.delete:active {
+    background-color: #881a1a;
+}

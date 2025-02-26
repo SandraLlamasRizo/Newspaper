@@ -16,7 +16,7 @@ export class SubscriptionComponent {
   }
 
   submitForm() {
-    console.log("Form submitted! (You can handle API calls here)");
+    console.log("Form submitted!");
     this.closeModal();
   }
 

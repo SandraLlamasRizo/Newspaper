@@ -4,8 +4,6 @@ import { NewsService } from '../../servicios/news.service';
 import { ArticleComponent } from '../article/article.component';
 import { RouterLink } from '@angular/router';
 import { NavBarComponent } from "../nav-bar/nav-bar.component";
-import { EditorComponent } from "../../admin/components/editor/editor.component";
-import { WriterComponent } from "../../admin/components/writer/writer.component";
 
 @Component({
   selector: 'app-home',

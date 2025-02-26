@@ -34,7 +34,6 @@ export class LogInComponent {
       this.usernameValid = this.form.controls['username'].valid;
       this.passwordValid = this.form.controls['password'].valid;
       this.roleValid = this.form.controls['role'].valid;
-      console.log(this.passwordValid, this.roleValid, this.usernameValid )
     }
   }
 }

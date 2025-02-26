@@ -1,0 +1,26 @@
+<app-nav-bar (enviar)="recibir($event)"></app-nav-bar>
+
+<section class="news-section">
+    <a class="back" [routerLink]="['/home']" routerLinkActive="active"> <i class="fa-solid fa-arrow-left"></i> back</a>
+    @if(userRole === 'writer'){
+        <button [routerLink]="['create-article']"> <i class="fa-solid fa-pen-nib"></i>  Create article</button>
+        <section class="section">
+    
+        <h4>Draft - articles</h4>
+        @for (item of draftNews; track $index) {
+        <a><app-article [userRole]="userRole" [item]="item"></app-article></a>
+        }
+    </section>
+    }
+    @if(userRole === 'editor'){
+    <section class="section">
+
+        <h4>Revision - articles</h4>
+        @for (item of revisionNews; track $index) {
+        <a><app-article [userRole]="userRole" [item]="item"></app-article></a>
+        }
+    </section>
+    }
+    <router-outlet></router-outlet>
+</section>
+

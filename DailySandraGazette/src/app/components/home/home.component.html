@@ -1,11 +1,8 @@
 <app-nav-bar (enviar)="recibir($event)"></app-nav-bar>
 
 <section class="news-section">
-    @if (userRole === 'editor') {
-    <button [routerLink]="['/editor']">Edit content</button>
-    }
-    @if (userRole === 'writer') {
-    <button [routerLink]="['/writer']">Edit content</button>
+    @if (userRole) {
+    <button [routerLink]="['/admin', userRole]"><i class="fa-solid fa-pen-to-square"></i>   Edit content</button>
     }
     @for (eachSection of sections; track $index) {
         <section class="section">

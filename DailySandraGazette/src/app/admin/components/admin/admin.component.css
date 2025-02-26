@@ -15,7 +15,7 @@
     color: #555;
 
     h4 {
-        font-weight: lighter;
+        font-size: 16px;
     }
 
     a {
@@ -26,7 +26,7 @@
 
 button {
     margin: 0px 5%;
-    width: 250px;
+    width: 150px;
     background: #356598;
     color: white;
     border: none;
